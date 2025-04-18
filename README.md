@@ -1,23 +1,28 @@
-# 8-Bit ALU: Arithmetic Logic Unit 🔢
+# 8-Bit Arithmetic Logic Unit (ALU) 🚀
 
-<div align="center">
-  <img src="./docs/images/alu_block_diagram.png" alt="ALU Block Diagram" width="400">
-  <img src="./docs/images/waveform_screenshot.png" alt="Simulation Waveform" width="400">
-</div>
+![GitHub License](https://img.shields.io/github/license/Vineeth-2k4/8-Bit_ALU-?style=flat-square)
+![Verilog Version](https://img.shields.io/badge/Verilog-2001-orange?style=flat-square)
+![Simulation Status](https://img.shields.io/badge/Simulation-Passing-brightgreen?style=flat-square)
 
-## ✨ Highlights
-| Feature          | GIF Demonstration       |
-|------------------|-------------------------|
-| **ADD Operation** | ![ADD Demo](./docs/images/add_wave.gif) |
-| **Shift Left**   | ![SHL Demo](./docs/images/shl_wave.gif) |
+A configurable 8-bit ALU implemented in Verilog, supporting arithmetic, logical, and shift operations with status flags.
 
-## 🛠️ Tech Stack
-<p align="center">
-  <img src="https://img.shields.io/badge/Verilog-2001-%23FF0000?style=for-the-badge&logo=verilog">
-  <img src="https://img.shields.io/badge/GTKWave-3.3.113-%23007ACC?style=for-the-badge">
-</p>
+## 📌 Features
+- **Arithmetic**: ADD, SUB  
+- **Logical**: AND, OR, XOR, NOT  
+- **Shift Operations**: SHL (Left), SHR (Right)  
+- **Status Flags**: Zero (Z), Negative (N), Carry (C)  
 
-## 📊 Simulation Results
-![Detailed Waveform](./docs/images/full_simulation.png)
+## 📸 Preview
+![ALU Block Diagram](./docs/images/ALU_block_diagram.png)  
+*High-level design overview*
 
-> **Pro Tip**: For animated GIFs, use [ScreenToGif](https://www.screentogif.com/) to capture GTKWave simulations!
+![Simulation Waveform](./docs/images/waveform.png)  
+*Example GTKWave output*
+
+## 🛠️ Installation
+```bash
+# Clone with SSH
+git clone git@github.com:Vineeth-2k4/8-Bit_ALU-.git
+
+# Install dependencies (Ubuntu)
+sudo apt-get install iverilog gtkwave
