@@ -1,18 +1,23 @@
-# 8-Bit Arithmetic Logic Unit (ALU)
+# 8-Bit ALU: Arithmetic Logic Unit 🔢
 
-![GitHub License](https://img.shields.io/github/license/Vineeth-2k4/8-Bit_ALU-)
-![Verilog Version](https://img.shields.io/badge/Verilog-2001-orange)
+<div align="center">
+  <img src="./docs/images/alu_block_diagram.png" alt="ALU Block Diagram" width="400">
+  <img src="./docs/images/waveform_screenshot.png" alt="Simulation Waveform" width="400">
+</div>
 
-## 📌 Features
-- **8-bit arithmetic**: ADD, SUB  
-- **Bitwise logic**: AND, OR, XOR, NOT  
-- **Shift operations**: SHL, SHR  
-- **Status flags**: Zero, Negative, Carry  
+## ✨ Highlights
+| Feature          | GIF Demonstration       |
+|------------------|-------------------------|
+| **ADD Operation** | ![ADD Demo](./docs/images/add_wave.gif) |
+| **Shift Left**   | ![SHL Demo](./docs/images/shl_wave.gif) |
 
-## 🛠️ Installation
-```bash
-# Clone with SSH
-git clone git@github.com:Vineeth-2k4/8-Bit_ALU-.git
+## 🛠️ Tech Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/Verilog-2001-%23FF0000?style=for-the-badge&logo=verilog">
+  <img src="https://img.shields.io/badge/GTKWave-3.3.113-%23007ACC?style=for-the-badge">
+</p>
 
-# Install Icarus Verilog (Ubuntu)
-sudo apt-get install iverilog gtkwave
+## 📊 Simulation Results
+![Detailed Waveform](./docs/images/full_simulation.png)
+
+> **Pro Tip**: For animated GIFs, use [ScreenToGif](https://www.screentogif.com/) to capture GTKWave simulations!
