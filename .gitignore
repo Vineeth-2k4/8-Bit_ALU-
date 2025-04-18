@@ -1,0 +1,7 @@
+# Qflow/OpenLane generated files
+layout/
+log/
+project_vars.sh
+qflow_exec.sh
+qflow_vars.sh
+synthesis/
