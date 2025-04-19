@@ -14,7 +14,7 @@ A configurable 8-bit ALU implemented in Verilog, supporting arithmetic, logical,
 
 ## 📸 Preview
 ![image](https://github.com/user-attachments/assets/1fa6f760-5570-43e7-9f01-59cd3966b785)
-*ALU*
+*BASIC ALU BLOCK DIAGRAM*
 ![ALU Block Diagram](./docs/images/ALU_block_diagram.png)  
 *High-level design overview*
 
